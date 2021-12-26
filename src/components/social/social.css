@@ -1,0 +1,18 @@
+.social{
+  position: absolute;
+  width: 18.21px;
+  bottom:-380px;
+  left: 40px;
+  display: none;
+}
+
+.social a{
+  margin-bottom: 10px;
+  display: block;
+}
+
+@media only screen and (min-width: 990px){
+  .social{
+    display: block;
+  }
+}

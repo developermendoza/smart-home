@@ -1,0 +1,17 @@
+.section-title{
+  padding: 20px;
+}
+h2{
+  font-size: 45px;
+  color: #313131;
+}
+
+@media only screen and (min-width: 550px){
+  .section-title{
+    padding: 40px;
+  }
+
+  h2{
+    font-size: 85px;
+  }
+}

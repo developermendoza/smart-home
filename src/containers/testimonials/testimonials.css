@@ -1,0 +1,26 @@
+.testimonials__divider{
+  text-align: center;
+  padding: 50px 0;
+}
+
+.testimonials__divider img {
+  width: 115px;
+}
+
+@media only screen and (min-width: 990px){
+
+  .testimonials__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .testimonial{
+    width: 41%;
+  }
+}
+
+@media only screen and (min-width: 1073px){
+  .testimonial{
+    width: 42%;
+  }
+}

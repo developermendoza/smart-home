@@ -1,0 +1,50 @@
+.accordion__button{
+  width: auto;
+  content: none;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.accordion__item + .accordion__item {
+  border-top: none;
+}
+
+.accordion__button:before{
+  content: none;
+}
+
+.accordion{
+  max-width: 676px;
+  margin: auto;
+  border: none;
+}
+
+.accordion__panel{
+  border-radius: 0 0 10px 10px;
+  padding: 20px 75px 40px 75px;
+  color: #575757;
+  line-height: 25px;
+  background: white;
+}
+
+
+.tab__button{
+  display: flex;
+  align-items: center;
+  line-height: 4px;
+}
+
+.tab__button-icon{
+  margin-right:10px;
+  font-size: 35px;
+}
+
+.accordion__item{
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.tab__header{
+  line-height: 23px;
+  color: #1B1139;
+}

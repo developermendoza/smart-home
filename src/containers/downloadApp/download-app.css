@@ -1,0 +1,60 @@
+.download-app h2{
+  text-align: center;
+}
+
+img.download-app__iphone, img.download-app__appstore{
+  width: 100%;
+}
+
+img.download-app__appstore{
+  max-width:168px;
+}
+
+img.download-app__iphone{
+  max-width: 300px;
+}
+
+.download-app__col{
+  text-align: center;
+}
+
+@media only screen and (min-width: 990px){
+
+  .download-app h2{
+    text-align: left;
+  }
+
+  .download-app__app-container{
+    text-align: left;
+  }
+
+  .download-app__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .download-app__col.appstore{
+    text-align: right;
+  }
+
+  .download-app .section-title{
+    padding-left: 0;
+  }
+
+  .download-app .section-subtitle p{
+    text-align: left;
+  }
+
+  img.download-app__iphone{
+    max-width: 450px;
+  }
+
+  .download-app__col{
+    width: 45%;
+  }
+
+  .download-app__col.iphone{
+    text-align: right;
+  }
+}

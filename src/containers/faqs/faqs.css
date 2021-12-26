@@ -1,0 +1,12 @@
+.faqs{
+  position:relative;
+}
+
+img.faqs__ellipse{
+  width: 174px;
+  height: 348px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index:-1;
+}

@@ -1,0 +1,90 @@
+.subscribe__container{
+  background-color: #1E5AFA;
+  border-radius: 10px;
+  padding: 50px;
+  position: relative;
+}
+
+.subscribe__col button{
+  outline: none;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+  color: #fafafa;
+  font-size: 18px;
+  padding: 20px 40px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.subscribe__col button:hover{
+  background-color: #fafafa;
+  color: #1E5AFA;
+  box-shadow: rgb(38 57 77) 0px 20px 30px -10px;
+}
+
+img.subscribe__union{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 100%;
+  max-width: 194px;
+}
+
+.subscribe__col .section-title h2, .subscribe__col .section-subtitle p{
+  color:#fdfdfd;
+}
+
+.subscribe__col .section-title h2{
+  font-size: 30px;
+}
+
+.subscribe__col .section-title {
+  padding-left: 0;
+  padding-top: 0;
+}
+
+.subscribe__col  .section-subtitle p{
+  text-align: left;
+  max-width: none;
+}
+
+.subscribe__col.button{
+  text-align: center;
+}
+
+@media only screen and (min-width: 990px){
+
+  .subscribe__container {
+    padding: 70px;
+}
+
+.subscribe__col.button {
+  text-align: right;
+}
+
+.subscribe__col  .section-subtitle p{
+  padding-bottom: 0;
+}
+
+.subscribe__col .section-title h2{
+  font-size: 48px;
+}
+  .subscribe__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .subscribe__col.info{
+    width: 62%;
+  }
+
+  .subscribe__col.button{
+    width: 20%;
+  }
+
+  .subscribe__col button {
+    padding: 20px 60px;
+  }
+}

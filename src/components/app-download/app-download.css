@@ -1,0 +1,17 @@
+.app-download{
+  margin-top: 150px;
+  display:flex;
+  justify-content: center;
+}
+
+.app-download img{
+  max-width: 202px;
+}
+
+@media only screen and (min-width: 990px){
+
+  .app-download{
+    text-align: center;
+    margin-top: 230px;
+  }
+}
